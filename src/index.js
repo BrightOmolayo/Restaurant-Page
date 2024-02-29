@@ -4,7 +4,7 @@ import { initialPageLoad } from '../pageLoad.js'
 // import from home.js
 import { createHomeTab } from './home.js'
 // import from about.js
-import { createAboutTab } from './about.js'
+import { createAboutTab } from './contact.js'
 // import from menu.js
 import { createMenuTab } from './menu.js'
 
