@@ -5,16 +5,19 @@ function initialPageLoad () {
   // Create and append the first button
   const button1 = document.createElement('button')
   button1.textContent = 'Home'
+  button1.id = 'home'
   nav.appendChild(button1)
 
   // Create and append the second button
   const button2 = document.createElement('button')
   button2.textContent = 'Menu'
+  button2.id = 'menu'
   nav.appendChild(button2)
 
   // Create and append the third button
   const button3 = document.createElement('button')
   button3.textContent = 'About'
+  button3.id = 'about'
   nav.appendChild(button3)
 
   // Create and append h1
@@ -23,9 +26,9 @@ function initialPageLoad () {
   nav.appendChild(heading)
 
   // Create and append the image
-  const image = document.createElement('img')
-  image.src = '../asset/food.jpg'
-  nav.appendChild(image)
+  // const image = document.createElement('img')
+  // image.src = '../asset/food.jpg'
+  // nav.appendChild(image)
 
   // Create and append paragraph
   const p = document.createElement('p')
