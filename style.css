@@ -6,23 +6,27 @@ img{
     width: 100%;
 }
 body{
-    background-image: url(../asset/food.jpg);
     background-position: center;
     background-size: cover;
     display: block;
     background-attachment: fixed;
     text-align: center;
-    color: aliceblue;
+    color:whitesmoke;
+    background-color: black;
 }
 
+/*.wrapper{
+    background-color: black;
+}*/
 button{
-    margin: 7px 4px 0px 4px;
-    padding: 4px;
+    margin: 12px 4px 5px 4px;
+    padding: 12px;
 }
+
 p{
     margin: 9px 4px 0px 4px;
     font-size: medium;
-    background-color: rgba(0,0,0, 0.3)
+
 }
 h1{
     margin: 12px 4px 0px 4px;
