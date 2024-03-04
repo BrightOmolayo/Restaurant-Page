@@ -4,7 +4,7 @@ function initialPageLoad () {
 
   // Create and append h1
   const heading = document.createElement('h1')
-  heading.textContent = 'welcome to  Swallow Resturant.'
+  heading.textContent = 'Swallow Bistro'
   nav.appendChild(heading)
 
   // Create and append the image
@@ -14,7 +14,7 @@ function initialPageLoad () {
 
   // Create and append paragraph
   const p = document.createElement('p')
-  p.textContent = 'we specialize on FUFU and VEGETABLE soup from the Rich Continent of  AFRICA'
+  p.textContent = 'We specialize on Swallow and SOUP from the Rich Continent of  AFRICA'
   nav.appendChild(p)
 
   // Create and append the first button
